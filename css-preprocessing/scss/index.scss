@@ -1,0 +1,29 @@
+@import 'color';
+
+%color-and-bigger-font {
+    color: blue;
+    font-size: 100px;
+}
+
+@mixin color($property) {
+    color: $property;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+        // color: $primary-color;
+        @extend %color-and-bigger-font;
+    }
+}
+
+p {
+    @include color(red);
+}
+
+h1 {
+    color: $primary-color;
+}

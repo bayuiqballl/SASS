@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAVA,GAUG,CAIC,EAAE,CAdiB;EACnB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;CACnB;;AAOD,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAMhC;;AAED,AAAA,CAAC,CAAC;EAdE,KAAK,EAeU,GAAG;EAdlB,gBAAgB,EAAE,KAAK;CAe1B;;AAED,AAAA,EAAE,CAAC;EACC,KAAK,EC3BO,GAAG;CD4BlB",
+    "sources": [
+        "index.scss",
+        "color.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
